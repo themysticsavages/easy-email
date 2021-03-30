@@ -1,0 +1,24 @@
+This is how to use EasyEmail.
+
+Don't delete the apostrophes.
+
+Under the # Users text, you can modify the sender email and the sender name.
+We suggest to change the email to a user which has less secure app usage
+turned on. The sender name can be whatever you want.
+
+The receiver emails, can be modified as well. Make sure the emails you chose
+actually exist.
+
+Under the # Email text, please change the location to a folder on your desktop.
+
+The email body can be modified to whatever you want. 
+
+Under the # Attachment text, you can specify a file which is in the folder you specified.
+
+Under the # Email information text, you can change the subject. You may remove the
+'+ receiver_name' text as well.
+
+If you have some background information about Python, you can modify any part of the
+script besides the parts which encode the attachments or send the email.
+
+Thank you.
