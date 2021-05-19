@@ -1,4 +1,4 @@
-
+# Don't download this script 🤮🤮🤮🤮🤮🤮🤮
 def startemail():
     # Configuration file for EasyEmail
     # EasyEmail, makes mass text emailing easy.
@@ -39,12 +39,13 @@ def startemail():
 
     # Attachment
     attach= 'info.txt' # If you want to attach something, add a file to the same folder EasyEmail is in.
+	# ^ wtf
 
     clear()
 
     print('Starting script...')
 
-    print("")
+    print("") # <- \n
 
     for receiver_email, receiver_name in zip(receiver_emails, receiver_names):
     
@@ -90,7 +91,7 @@ def startemail():
         except Exception as e:
             print(f'Email failed to send. Check your internet connection.\n{e}')
 
-        print("")
+        print("") # wtf
         print("Email sent.")
 
     time.sleep(2)
